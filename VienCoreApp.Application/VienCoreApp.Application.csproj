@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Implementation\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VienCoreApp.Data.EF\VienCoreApp.Data.EF.csproj" />
+    <ProjectReference Include="..\VienCoreApp.Data\VienCoreApp.Data.csproj" />
+    <ProjectReference Include="..\VienCoreApp.Utilities\VienCoreApp.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

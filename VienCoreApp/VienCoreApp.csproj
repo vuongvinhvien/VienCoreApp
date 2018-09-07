@@ -18,4 +18,12 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\VienCoreApp.Application\VienCoreApp.Application.csproj" />
+    <ProjectReference Include="..\VienCoreApp.Data.EF\VienCoreApp.Data.EF.csproj" />
+    <ProjectReference Include="..\VienCoreApp.Data\VienCoreApp.Data.csproj" />
+    <ProjectReference Include="..\VienCoreApp.Infrastructure\VienCoreApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\VienCoreApp.Utilities\VienCoreApp.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
